@@ -1,0 +1,38 @@
+body {
+    animation: bgcolor 8s infinite;
+    animation: rotation 5s linear infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #86b6d8;
+    }
+
+    30% {
+        background-color: #7cac64;
+    }
+
+    60% {
+        background-color: #e39763;
+    }
+
+    90% {
+        background-color: rgb(189, 105, 119);
+    }
+
+    100% {
+        background-color: #8768a6;
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
