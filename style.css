@@ -1,8 +1,8 @@
 body {
-    animation: bgcolor 8s infinite;
-    animation: rotation 5s linear infinite;
-    animation-timing-function: linear;
+    animation: bgcolor 8s infinite, rotation 8s infinite linear;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
+    animation-timing-function:linear;
 }
 
 @keyframes bgcolor {
