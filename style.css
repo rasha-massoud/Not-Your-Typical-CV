@@ -2,17 +2,65 @@ body {
     animation: bgcolor 6s infinite;
 }
 
+tr{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 .Image-Rotation{
     width:10%;
     height:auto;
-    margin: 2% auto auto 2%;
+    margin: 4% auto auto 4%;
     transition: 0.3s ease;
-    border-radius: 50%;;
+    border-radius: 50%;
+}
+
+.TopHeader{
+    height:10%; 
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: top center;
+    justify-items: center;
+}
+
+.ContactInfo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:space-around;
+    justify-items: center;
+
+}
+
+.TopHeader h1{
+    font-size: 50px;
+}
+
+.TopHeader p{
+    font-size: 120%;
+}
+
+.ContactInfo p{
+    font-size: 120%
+}
+
+.Education{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.EducationTitle h2{
+    margin:0% auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align:center;
 }
 
 img:hover{
     /* animation: rotate 1s linear; */
-    transform: rotate(359deg) scale(2);
+    transform: rotate(359deg) scale(4);
 }
 
 @keyframes bgcolor {
